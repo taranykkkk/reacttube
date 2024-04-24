@@ -1,0 +1,25 @@
+.side_link {
+  display: flex;
+  width: fit-content;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+
+  p {
+    color: #00d8ff;
+  }
+
+  &:hover {
+    transform: translateY(-4px);
+  }
+}
+.active {
+  p {
+    color: #0f8499ed;
+    font-weight: 600;
+    padding-bottom: 2px;
+    border-bottom: 3px solid #0f8499ed;
+  }
+}

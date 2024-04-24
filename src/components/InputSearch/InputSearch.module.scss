@@ -1,0 +1,18 @@
+.search_box {
+  border: 2px solid #b2f3ff;
+  margin-right: 15px;
+  padding: 4px 12px;
+  border-radius: 10px;
+
+  input {
+    width: clamp(100px, -4.167rem + 33.33vw, 400px);
+    border: 0;
+    outline: none;
+    background: transparent;
+
+    &::placeholder {
+      color: #064550;
+      font-weight: bold;
+    }
+  }
+}

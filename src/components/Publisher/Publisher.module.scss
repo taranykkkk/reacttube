@@ -1,0 +1,37 @@
+.publisher {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+
+  img {
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 5px;
+  }
+
+  button {
+    background: #00d8ff;
+    color: #fff;
+    padding: 8px 30px;
+    border: 0;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .user_desc {
+    flex: 1;
+    line-height: 18px;
+
+    p {
+      color: #000;
+      font-weight: 600;
+      font-size: 18px;
+    }
+
+    span {
+      font-size: 13px;
+      color: #5a5a5a;
+    }
+  }
+}

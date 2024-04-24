@@ -1,0 +1,31 @@
+@import '../../index.scss';
+
+.play_video_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #5a5a5a;
+
+  span {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 15px;
+  }
+
+  svg {
+    margin-right: 8px;
+  }
+}
+
+@include width1100() {
+  .play_video_info {
+    span {
+      margin-left: 0;
+      margin-right: 10px;
+      // margin-top: 15px;
+    }
+  }
+}

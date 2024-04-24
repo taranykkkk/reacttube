@@ -1,0 +1,20 @@
+.subscribed_list {
+  h3 {
+    font-size: 16px;
+    margin: 20px 0;
+    color: #0f8499ed;
+  }
+}
+
+.side_link {
+  display: flex;
+  width: fit-content;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 15px;
+  cursor: pointer;
+
+  p {
+    color: #00d8ff;
+  }
+}

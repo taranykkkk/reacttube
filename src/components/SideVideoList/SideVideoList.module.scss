@@ -1,0 +1,33 @@
+.side_video_list {
+  display: flex;
+  margin-bottom: 8px;
+
+  img {
+    border-radius: 5px;
+    width: 168px;
+    height: 94px;
+    margin-right: 8px;
+  }
+
+  .video_info {
+    flex-basis: 49%;
+
+    h4 {
+      font-size: 14px;
+      margin-bottom: 5px;
+      color: black !important;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      display: -webkit-box;
+      max-height: 4rem;
+    }
+
+    p {
+      font-size: 13px;
+      font-weight: 600;
+      color: #555;
+      margin: 4px 0;
+    }
+  }
+}

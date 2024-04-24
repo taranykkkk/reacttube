@@ -59,7 +59,6 @@ export const searchSlice = createSlice({
   reducers: {
     setSearchValue: (state, action) => {
       state.searchValue = action.payload;
-      console.log(action.payload);
     },
     clearFetchSearchData: (state) => {
       state.moreResult = null;
@@ -75,6 +74,7 @@ export const searchSlice = createSlice({
       state.status = 'resolved';
       state.data.push(...action.payload.items);
       state.moreResult = action.payload.nextPageToken;
+      console.log(action.payload);
     });
     builder.addCase(fetchSearchData.rejected, (state, action) => {
       state.status = 'rejected';

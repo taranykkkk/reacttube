@@ -20,10 +20,10 @@ function InputSearch({ visibility }) {
 
   const onChangeInput = (e) => {
     setInputValue(e.target.value);
-    updateSearchValue(e.target.value);
   };
 
   const onClickSearch = () => {
+    updateSearchValue(inputValue);
     dispatch(fetchSearchData(inputValue));
   };
 
